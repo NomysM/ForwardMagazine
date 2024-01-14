@@ -1,0 +1,412 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: #e4e9f7;
+}
+
+.loginHeader {
+  text-align: center;
+  margin-bottom: 60px;
+  text-decoration: none;
+}
+
+.loginHeader h1 {
+  font-size: 100px;
+  color: rgba(76, 68, 182, 0.808);
+  padding: 0px;
+  margin: 0px;
+}
+
+.loginHeader h1:after {
+  content: "";
+  display: block;
+  height: 5px;
+  background-color: rgba(76, 68, 182, 0.808);
+  width: 50%;
+  margin: 0 auto;
+}
+
+.loginBody form {
+  margin: 0 auto;
+  width: 460px;
+  background: #fdfdfd;
+  padding: 40px;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+.loginInputContainer {
+  margin-top: 20px;
+}
+
+.loginInputContainer label {
+  display: block;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+
+.loginInputContainer input {
+  height: 40px;
+  width: 100%;
+  font-size: 16px;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  outline: none;
+}
+
+.loginButtonContainer {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.loginButtonContainer button {
+  height: 35px;
+  background: rgba(76, 68, 182, 0.808);
+  border: 0;
+  border-radius: 5px;
+  color: #ffff;
+  font-size: 15px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+  padding: 0px 10px;
+  width: 100%;
+}
+
+.loginButtonContainer button:hover {
+  opacity: 0.82;
+}
+
+#errorMessage {
+  background: white;
+  text-align: center;
+  color: red;
+  font-size: 15px;
+  padding: 10px;
+}
+
+/********Homepage*******/
+
+.header {
+  width: 100%;
+  padding: 10px;
+  background-color: #ffff;
+  text-align: right;
+  background: rgba(76, 68, 182, 0.808);
+}
+
+.header a {
+  height: 35px;
+  background: rgba(76, 68, 182, 0.808);
+  border: 0;
+  border-radius: 5px;
+  color: #ffff;
+  font-size: 20px;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-top: 10px;
+  padding: 0px 10px;
+  text-decoration: none;
+}
+
+.banner {
+  background: url(../img/background2.jpg) no-repeat center center fixed;
+  background-size: cover;
+  padding-top: 400px;
+  padding-bottom: 480px;
+}
+
+.homepageContainer {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.homepageContainer h1 {
+  color: white;
+  text-shadow: 4px 3px black;
+  font-size: 70px;
+}
+
+/****Panel*****/
+
+.wallpaper {
+  width: 100%;
+  height: 100%;
+  background: url(../img/background2.jpg) no-repeat center center fixed;
+  padding-bottom: 68vh;
+  background-size: cover;
+}
+.wallpaper h1 {
+  color: white;
+  text-shadow: 4px 3px black;
+  font-size: 120px;
+  text-align: center;
+}
+#dashboardMainContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.dashboard_sidebar {
+  width: 20%;
+  background: #323232;
+  height: 100vh;
+}
+
+.dashboard_content_container {
+  width: 80%;
+}
+
+.dashboard_logo {
+  color: #554be2ce;
+  font-size: 20px;
+  text-align: center;
+}
+
+.dashboard_menu_lists {
+  margin-top: 20px;
+}
+
+.dashboard_menu_lists li {
+  padding: 15px 0px;
+  text-transform: uppercase;
+}
+
+.dashboard_menu_lists li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  padding: 0px 15px;
+  padding-right: 0px;
+}
+
+.mainMenuIconArrow {
+  float: right;
+}
+
+.dashboard_menu_lists li a i {
+  font-size: 23px;
+  width: 30px;
+}
+
+.dashboard_menu_lists li.menuActive {
+  background: rgba(76, 68, 182, 0.808);
+  color: #fff;
+}
+
+.dashboard_menu_lists li:hover {
+  background: rgba(76, 68, 182, 0.808);
+  color: #fff;
+  transition: 0.9s all;
+}
+
+.dashboard_nav {
+  background: #fff;
+  padding: 20px;
+}
+.dashboard_nav a {
+  color: #848383;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+#logoutBtn {
+  float: right;
+}
+
+.dashboard_content {
+  padding: 50px 10px 10px 10px;
+}
+
+.dashboard_content_main {
+  background: white;
+  min-height: 783px;
+  height: 100%;
+}
+
+.downMenusLink {
+  padding-left: 25px !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  text-transform: none;
+}
+
+.downMenusLink i {
+  font-size: 16px !important;
+}
+
+.downMenus a:hover {
+  background: rgba(76, 68, 182, 0.808);
+}
+
+/******Add-user.php*****/
+
+.addApp {
+  width: 50%;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background: rgba(0, 0, 1, 0.1);
+}
+
+.addAppInput {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+#userAddApp {
+  padding-top: 20px;
+}
+
+#addAppInputCont {
+  padding-top: 100px;
+}
+
+.addAppInputCont label {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.btn-submit {
+  margin-top: 20px;
+  background: rgba(76, 68, 182, 0.808);
+  color: #fff;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+  float: right;
+}
+
+.addApp:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+p.responseMessage {
+  font-size: 16px;
+  text-align: center;
+  margin-top: 30px;
+  padding: 20px;
+}
+
+p.responseMessage__error {
+  background: rgba(128, 0, 0, 0.1);
+}
+p.responseMessage__success {
+  background: rgba(0, 128, 0, 0.1);
+}
+/*********Show-users.php************/
+.section_header {
+  font-size: 21px;
+  color: rgba(76, 68, 182, 0.808);
+  border-bottom: 2px solid rgba(76, 68, 182, 0.808);
+  padding-bottom: 11px;
+  padding: 10px;
+  border-left: 4px solid rgba(76, 68, 182, 0.808);
+  margin-bottom: 16px;
+}
+
+.users table,
+th,
+td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+table {
+  width: 100%;
+}
+
+table th {
+  background: #a6aeb9;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table td {
+  font-size: 14px;
+  text-align: center;
+  padding: 6px;
+}
+/********product-add.php***********/
+.product_text_input {
+  width: 100%;
+  height: 75px;
+  border-radius: 5px;
+}
+/*********product-view.php*********/
+.update-form {
+  display: flex;
+  align-items: center;
+}
+
+.update-form input[type="number"] {
+  width: 50px;
+  margin-right: 5px;
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.update-form button {
+  padding: 5px 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+/*********report.php*******/
+.raportForm {
+  width: 100%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.raportFormButton {
+  flex: 1;
+  height: 150px;
+  background: rgba(76, 68, 182, 0.808);
+  border-radius: 5px;
+  border: 0;
+  color: #fff;
+  margin-right: 100px;
+  margin-left: 80px;
+}
+
+.raportFormButton:hover {
+  cursor: pointer;
+}
+
+.btn-submit-next {
+  margin-top: 20px;
+  background: rgba(76, 68, 182, 0.808);
+  color: #fff;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+.orderForm {
+  margin-left: 30%;
+  padding: 20px 20px 20px 20px;
+  border: 2px solid black;
+  border-radius: 3px;
+  width: 500px;
+}
