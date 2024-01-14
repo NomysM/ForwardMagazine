@@ -13,8 +13,14 @@ hasło:woda123
 ![image](https://github.com/NomysM/forwardmagazine/assets/108279369/76ac8503-1ccd-4cbd-8723-9c62fce75736)
 ![image](https://github.com/NomysM/forwardmagazine/assets/108279369/19db8238-9b62-4d18-9046-13f9190c590b)
 ![image](https://github.com/NomysM/forwardmagazine/assets/108279369/9c831a39-6e9f-49f6-8147-df63b14cd4b5)
-![image](https://github.com/NomysM/forwardmagazine/assets/108279369/1b9567c7-59c4-4656-8c69-eed5d8504260)
+![image](https://github.com/NomysM/forwardmagazine/assets/108279369/7e4b3cdf-864d-4119-92f7-962eed513fee)
 ![image](https://github.com/NomysM/forwardmagazine/assets/108279369/0f869cb7-6957-4e7a-b99a-8f37ef4c19a7)
+
+SQL
+![image](https://github.com/NomysM/forwardmagazine/assets/108279369/baf05e2f-aee6-4eaa-a074-2dbcb9804915)
+![image](https://github.com/NomysM/forwardmagazine/assets/108279369/c9215ad6-3b52-4a52-8573-bb430d823e3c)
+
+
 
 
 
