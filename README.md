@@ -1,4 +1,9 @@
 ForwardMagazine
+Konta:
+login:mlotek@gmail.com
+hasło:Woda123
+login:szymon@gmail.com
+hasło:woda123
 ![image](https://github.com/NomysM/forwardmagazine/assets/108279369/3249b1f6-a966-43d4-abec-6969528427a9)
 ![image](https://github.com/NomysM/forwardmagazine/assets/108279369/9b79d3ce-5943-44e4-a550-6141b3373869)
 ![image](https://github.com/NomysM/forwardmagazine/assets/108279369/85f3f52f-7982-48b8-a800-ea874c2bba78)
