@@ -120,9 +120,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                 <div class="dashboard_content_main">
                     <h1 class="section_header"><i class="fa fa-plus"></i> Raporty</h1>
                     <form method="post" class="raportForm">
-                        <button type="submit" name="generate_product_pdf" class="raportFormButton">Generuj PDF (Produkty)</button>
-                        <button type="submit" name="generate_user_pdf" class="raportFormButton">Generuj PDF (Konta)</button>
-                        <button type="submit" name="generate_order_pdf" class="raportFormButton">Generuj PDF (Zamówienia)</button>
+                        <button type="submit" name="generate_product_pdf" class="raportFormButton">Produkty</button>
+                        <button type="submit" name="generate_user_pdf" class="raportFormButton">Konta</button>
+                        <button type="submit" name="generate_order_pdf" class="raportFormButton">Zamówienia</button>
                     </form>
                 </div>
             </div>
